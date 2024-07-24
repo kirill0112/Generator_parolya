@@ -1,0 +1,7 @@
+import random
+parol =  "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+dlina_parolya = int(input("Введите количество знаков в пароле: "))
+itogoviy_parol =" "
+for i in range(dlina_parolya):
+    itogoviy_parol += random.choice(parol)
+    print("Пароль: ", itogoviy_parol)
